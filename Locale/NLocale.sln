@@ -1,7 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locale.SubCountry", "Locale.SubCountry\Locale.SubCountry.csproj", "{C6351BD5-270D-45A5-B08B-72E58A55D1D6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLocale", "NLocale\NLocale.csproj", "{C6351BD5-270D-45A5-B08B-72E58A55D1D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NLocaleTests", "NLocaleTests\NLocaleTests.csproj", "{8145A8C8-95EC-495C-8D09-FCBB21E8505F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,10 @@ Global
 		{C6351BD5-270D-45A5-B08B-72E58A55D1D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6351BD5-270D-45A5-B08B-72E58A55D1D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6351BD5-270D-45A5-B08B-72E58A55D1D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8145A8C8-95EC-495C-8D09-FCBB21E8505F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8145A8C8-95EC-495C-8D09-FCBB21E8505F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8145A8C8-95EC-495C-8D09-FCBB21E8505F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8145A8C8-95EC-495C-8D09-FCBB21E8505F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
