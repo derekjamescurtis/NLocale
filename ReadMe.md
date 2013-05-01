@@ -56,7 +56,7 @@ djcurtis@summersetsoftware.com
 
 Summerset Software, LLC
 
-Although I've written the C# code, a TON of credit goes to the original module authors (whose work I've used in my Perl project) for the idea
+Although I've written the C# code, a TON of credit goes to the original module authors (whose work I've used in my Perl projects) for the idea
 of this module and for compiling the XML data that runs this library.
 
 License

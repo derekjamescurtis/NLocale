@@ -46,8 +46,6 @@ namespace NLocale
 
       }
 
-      if (_countryNode == null)
-        throw new Exception("you fucked up your xpath");
 
     }
     readonly XmlNode _countryNode;
@@ -90,7 +88,7 @@ namespace NLocale
           var subcountryNodes = _countryNode.SelectNodes("subcountry");
           foreach (XmlNode node in subcountryNodes)
           {
-            subcountries.Add(new SubCountry(node, this));
+            subcountries.Add(new SubCountry(node));
           }
 
           _subCountries = new ReadOnlyCollection<SubCountry>(subcountries);

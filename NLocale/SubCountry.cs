@@ -11,11 +11,11 @@ namespace NLocale
   {
 
 
-    protected internal SubCountry(XmlNode node, Country parent)
+    protected internal SubCountry(XmlNode node) //, Country parent)
     {
 
       // just a reference back to the parent country
-      this.Parent = parent;
+      //this.Parent = parent;
 
 
       // these two nodes should be present for every sub country
@@ -51,7 +51,7 @@ namespace NLocale
     public string FIPS4_10 { get; private set; }
     
 
-    public Country Parent { get; private set; }
+    //public Country Parent { get; private set; }
 
   }
 }
